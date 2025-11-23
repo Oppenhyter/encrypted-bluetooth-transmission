@@ -1,0 +1,15 @@
+#/etc/systemd/system/btSendDaemon.service
+[Unit]
+Description=Sends GPS and Accelerometer data encrypted over Bluetooth 
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+ExecStart=/usr/bin/env python3 /home/pi/Documents/project9/src/project9.py
+Restart=always
+RestartSec=5
+StandardError=append:/var/log/btSendDaemon.err
+
+[Install]
+WantedBy=multi-user.target
