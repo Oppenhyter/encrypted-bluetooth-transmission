@@ -19,4 +19,4 @@ Replacing your username, IP address and file location as necessary
   Verify that the files have been transferred to `~/Documents/encryptedBT/src/`
   run the following installs: \
   `sudo apt install update && sudo apt install upgrade` \
-  `sudo apt install bluez`
+  `sudo apt install bluez cryptography`
