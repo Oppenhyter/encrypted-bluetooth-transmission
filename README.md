@@ -17,6 +17,6 @@ Replacing your username, IP address and file location as necessary
 
 - Log onto your Raspberry Pi (directly or through SSH)
   Verify that the files have been transferred to `~/Documents/encryptedBT/src/`
-  run the following installs:
-  `sudo apt install update && sudo apt install upgrade`
+  run the following installs: \
+  `sudo apt install update && sudo apt install upgrade` \
   `sudo apt install bluez`
